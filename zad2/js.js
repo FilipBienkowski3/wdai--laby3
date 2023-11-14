@@ -40,7 +40,6 @@ function renderProducts(products) {
     productsList.innerHTML = "";
 
     if (products.length === 0) {
-        // Dodaj kod obsługi, gdy nie ma pasujących produktów
         const noResultsMessage = document.createElement("p");
         noResultsMessage.innerText = "Brak pasujących produktów.";
         productsList.appendChild(noResultsMessage);
